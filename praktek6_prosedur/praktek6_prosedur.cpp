@@ -1,8 +1,13 @@
-
 #include <iostream>
+using namespace std;
 
-int main()
+int a, b;
+
+void input()
 {
-    std::cout << "Hello World!\n";
-}
+	cout << "Bilangan pertama = ";
+	cin >> a;
 
+	cout << "Bilangan kedua = ";
+	cin >> b;
+}
